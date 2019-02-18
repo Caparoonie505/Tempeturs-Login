@@ -4,6 +4,7 @@ import classNames from "classnames";
 import LoginComponent from "./loginComponent";
 import RegisterComponent from "./registerComponent";
 import LoginNavComponent from "./loginNavComponent";
+import RegisterNavComponent from "./registerNavComponent";
 
 import "./styles.css";
 
@@ -25,9 +26,9 @@ class App extends React.Component {
     const { navTab } = this.state;
     let joinComponent =
       activeTab === "login" ? <LoginComponent /> : <RegisterComponent />;
-
     let appendNavComponent =
-      navTab === "login" ? <LoginNavComponent /> : <RegisterComponent />;
+      activeTab === "login" ? <LoginNavComponent /> : <RegisterNavComponent />;
+
     return (
       <div className="segmentWrapper">
         <table>
