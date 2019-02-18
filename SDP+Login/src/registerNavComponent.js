@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-class LoginNavComponent extends React.Component {
+class RegisterNavComponent extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -18,10 +18,10 @@ class LoginNavComponent extends React.Component {
               width="50"
             />
             <h2>Tempeturs</h2>
-            <h3> Not a member yet? </h3>
+            <h3> Already a Member? </h3>
             <button class="button signupButton" type="button">
               {" "}
-              Register{" "}
+              Login{" "}
             </button>
           </div>
         </form>
@@ -30,4 +30,4 @@ class LoginNavComponent extends React.Component {
   }
 }
 
-export default LoginNavComponent;
+export default RegisterNavComponent;
