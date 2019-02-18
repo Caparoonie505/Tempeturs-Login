@@ -1,0 +1,140 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #8e9bd1;
+  color: #31319f;
+  text-align: center;
+}
+.forgotPassword {
+  color: #31319f;
+  text-decoration: none;
+  border-bottom: 2px solid #aaaaaa;
+  cursor: pointer;
+  flex: 1;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin: 10%;
+  text-align: center;
+}
+a:hover {
+  color: #8e9bd1;
+}
+.button {
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 4%;
+  background-color: #31319f;
+  color: #ffffff;
+}
+.button:hover {
+  background-color: #4f4fc9;
+  transform: translateY(-2px);
+  transition: 0.3s;
+}
+.button:active {
+  transform: translateY(2px);
+  transition: 0.2s;
+}
+.signupButton {
+  border-radius: 45px;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 4%;
+  color: #ffffff;
+  border: #ffffff 2px;
+}
+.facebookButton {
+  background-color: #3b5998;
+}
+.facebookButton:hover {
+  background-color: #5a7abf;
+}
+.googleButton {
+  background-color: #ea4335;
+}
+.googleButton:hover {
+  background-color: #ee6a5d;
+}
+.segmentWrapper {
+  min-width: 350px;
+  border-radius: 10px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  margin: 10% auto;
+  width: 40%;
+  position: relative;
+}
+.formWrapper {
+  min-width: 450px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  height: 100%;
+  float: left;
+}
+.navigationWrapper {
+  min-width: 300px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #31319f;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+.navTableData {
+  background-color: #31319f;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 0px;
+}
+.navWrapper {
+  height: 100%;
+}
+.loginRegisterSelector {
+  height: 100%;
+}
+.login,
+.register {
+  border-bottom: 2px solid #31319f;
+  cursor: pointer;
+  flex: 1;
+  padding: 2%;
+  margin: 10%;
+  text-align: center;
+  transition: border-bottom 0.2s linear;
+}
+.active {
+  border-bottom: 2px solid #8e9bd1;
+}
+.join_wrapper {
+  flex-basis: 100%;
+  padding: 3%;
+}
+.field-input-wrapper {
+  margin-bottom: 5%;
+}
+.join_Component {
+  border: 1px solid #aaaaaa;
+  color: #aaaaaa;
+  box-sizing: border-box;
+  outline: 0;
+  padding: 3%;
+  width: 100%;
+}
+.join_Component:focus {
+  border: 1px solid #31319f;
+  color: #31319f;
+}
